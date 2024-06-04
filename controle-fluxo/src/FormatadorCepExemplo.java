@@ -1,10 +1,10 @@
 public class FormatadorCepExemplo {
     public static void main(String[] args) {
         try {
-            String cepFormatado = formatarCep("70673205");
+            String cepFormatado = formatarCep("21655205");
             System.out.println(cepFormatado);
         } catch (CepInvalidoException e) {
-            // TODO Auto-generated catch block
+            //TODO Auto-generated catch block
             System.out.println("CEP não corresponde as regras de negócio.");;
         }
     }
